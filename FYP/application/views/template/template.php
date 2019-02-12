@@ -1,0 +1,9 @@
+<?php 
+$this->load->view('template/linktop');
+$this->load->view("template/header/{$identity}");
+$this->load->view("template/navbar/{$identity}");
+if($destination!="index")
+	$this->load->view('template/breadcrumbs');
+$this->load->view("content/{$destination}");
+$this->load->view('template/footer');
+$this->load->view('template/scriptbot');

@@ -1,0 +1,32 @@
+FYP 
+Food Ordering System
+-------------------------------------
+Team members :
+1. Chiew Gin Xiang 1151200941
+2. Goh Jie Jing 1151200840
+3. Lee Hau Chon 1151201111
+-------------------------------------
+Remarks:
+This is a website that built using Codeigniter PHP Framework, a W3School HTML template and also some self-defined design.
+Codeigniter is a MVC, Model-View-Controller framework. 
+Things that are provided by the template is located at the folder named "Original".
+
+To access our website, please execute the SQL code to insert the dummy data follow the sequence below.
+1. create_database.sql
+2. create_table_... .sql
+3. insert_into_... .sql
+
+After the SQL code has been executed, please go to this url to access our website.
+"localhost/FYP2/FYP/page"
+
+To login as admin, please use the following URL.
+"localhost/FYP2/FYP/page/login2"
+
+To take a deeper look into the code, please go to the several url :
+1. FYP2/FYP/application/controller/page.php ----> Controller, where the logic and linking between view file and model file is done.
+2. FYP2/FYP/application/config/config.php ----> base url configuration
+3. FYP2/FYP/application/config/database.php ----> database connection configuration
+4. FYP2/FYP/application/model/..._mod.php ----> Model, where the SQL code is built to retrieve or manipulate the data.
+5. FYP2/FYP/application/view/content/.... .php ----> View, where each page of our website is listed.
+6. FYP2/FYP/application/view/template/.... .php ----> Template View, where the footer, header, linking between script and css is located.
+7. FYP2/FYP/application/config/config.php -> line 382 ----> Session Expired Time. 7200 seconds, which is equal to 2 hours.

@@ -1,0 +1,5 @@
+email		= admin@admin.com
+password	= 12341234
+
+email 		= admin2@admin.com
+password	= abcdabcd

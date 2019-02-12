@@ -1,0 +1,25 @@
+create table `owner`
+(
+	`owner_id` bigint(20) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	`owner_name` varchar(255) NOT NULL DEFAULT '',
+	`owner_gender` varchar(10) NOT NULL DEFAULT '',
+	`owner_birth` date NOT NULL DEFAULT '0000-00-00',
+	`owner_contact` varchar(50) NOT NULL DEFAULT '',
+	`owner_address` varchar(500) NOT NULL DEFAULT '',
+	`owner_state` varchar(50) NOT NULL DEFAULT '',
+	`owner_zip` varchar(5) NOT NULL DEFAULT '',
+	`owner_sub` int(1) NOT NULL DEFAULT 0,
+	`owner_email` varchar(255) NOT NULL DEFAULT '',
+	`owner_pass` varchar(255) NOT NULL DEFAULT '',
+	`owner_secure` varchar(255) NOT NULL DEFAULT '',
+	`owner_status` varchar(50) NOT NULL DEFAULT '',
+	`owner_status_remark` varchar(500) NOT NULL DEFAULT '',
+	`owner_created_by` bigint(20) NOT NULL DEFAULT 0,
+	`owner_created_date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+	`owner_verified_by` bigint(20) NOT NULL DEFAULT 0,
+	`owner_verified_date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+	`owner_approved_by` bigint(20) NOT NULL DEFAULT 0,
+	`owner_approved_date`datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
+	`owner_updated_by` bigint(20) NOT NULL DEFAULT 0,
+	`owner_updated_date` datetime NOT NULL DEFAULT '0000-00-00 00:00:00'
+);
