@@ -10,12 +10,12 @@ Requirement:
 PHP Version 7.0 - 7.1
 XAMPP Version 7.1.12
 
-Things to do before running XAMPP Server:
+Things to do before executing SQL Codes:
 1. Create a new directory named "FYP2" in xampp/htdocs/
 2. Move project file into xampp/htdocs/FYP2/
 3. Make sure to Start Apache and MySQL Services
 4. Open web browser and type url: localhost/phpmyadmin
-5. Proceed running SQL files, should be able to Drag and Drop SQL files. 
+5. Proceed executing SQL codes, should be able to Drag and Drop SQL files. 
 (Run Create DB SQL first, then navigate to food_ordering_system DB to continue run Create Table and Insert Into SQL)
 
 Remarks:
