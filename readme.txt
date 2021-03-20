@@ -6,6 +6,18 @@ Team members :
 2. Goh Jie Jing 1151200840
 3. Lee Hau Chon 1151201111
 -------------------------------------
+Requirement:
+PHP Version 7.0 - 7.1
+XAMPP Version 7.1.12
+
+Things to do before running XAMPP Server:
+1. Create a new directory named "FYP2" in xampp/htdocs/
+2. Move project file into xampp/htdocs/FYP2/
+3. Make sure to Start Apache and MySQL Services
+4. Open web browser and type url: localhost/phpmyadmin
+5. Proceed running SQL files, should be able to Drag and Drop SQL files. 
+(Run Create DB SQL first, then navigate to food_ordering_system DB to continue run Create Table and Insert Into SQL)
+
 Remarks:
 This is a website that built using Codeigniter PHP Framework, a W3School HTML template and also some self-defined design.
 Codeigniter is a MVC, Model-View-Controller framework. 
@@ -17,7 +29,7 @@ To access our website, please execute the SQL code to insert the dummy data foll
 3. insert_into_... .sql
 
 After the SQL code has been executed, please go to this url to access our website.
-"localhost/FYP2/FYP/page"
+"localhost/FYP2/FYP/page/index"
 
 To login as admin, please use the following URL.
 "localhost/FYP2/FYP/page/login2"
